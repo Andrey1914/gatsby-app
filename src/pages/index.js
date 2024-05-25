@@ -2,6 +2,8 @@ import * as React from "react";
 
 import Layout from "../components/layout";
 
+import Seo from "../components/seo";
+
 import { StaticImage } from "gatsby-plugin-image";
 
 const IndexPage = () => {
@@ -19,7 +21,7 @@ const IndexPage = () => {
 export const Head = () => (
   <>
     <meta name="home-page" content="Home Page" />
-    <title>Home Page</title>
+    <Seo title="Home Page" />
   </>
 );
 
