@@ -25,7 +25,7 @@ const Layout = ({ pageTitle, children }) => {
     <div className={container}>
       <header className={siteTitle}>
         {data.site.siteMetadata.title}
-        <Link to="https://github.com/Andrey1914">Andrey1914</Link>
+        <a href="https://github.com/Andrey1914">Andrey1914</a>
       </header>
 
       <nav>
